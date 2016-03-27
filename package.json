@@ -12,7 +12,8 @@
   },
   "keywords": [
     "calclang",
-    "atom-calclang"
+    "atom-calclang",
+    "language-calclang"
   ],
   "author": "Tobe O <thosakwe@gmail.com>",
   "license": "MIT",
