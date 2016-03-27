@@ -1,2 +1,4 @@
+![language-calclang](/screenshots/fib.png?raw=true)
+
 # language-calclang
-Atom support for CalcLang. 
+Atom syntax-highlighting for CalcLang.
