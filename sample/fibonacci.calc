@@ -1,0 +1,11 @@
+// Fib!
+
+fn fib(n)
+    f1 = ((1 + sqrt(5)) / 2) ^ n
+    f2 = ((1 - sqrt(5)) / 2) ^ n
+    ret floor((f1 - f2) / sqrt(5))
+end fib
+
+fn main()
+    ret fib(13)
+end main

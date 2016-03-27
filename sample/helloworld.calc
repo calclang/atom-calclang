@@ -1,0 +1,9 @@
+// Sample
+
+inc "import_this.calc"
+
+fn main()
+    value = sin(rad(90))
+    print "Hello world!"
+    ret 0
+end main

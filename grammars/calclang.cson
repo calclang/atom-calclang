@@ -1,0 +1,44 @@
+'fileTypes': [
+    'calc'
+]
+'foldingStartMarker': '(fn .+\\(\\))|(if)'
+'foldingStopMarker': 'end'
+'name': 'CalcLang'
+'patterns': [
+    {
+        'match': '\/\/.*$'
+        'name': 'comment.line'
+    }
+    {
+    'match': '\\b[0-9]+d?\\b'
+    'name': 'constant.numeric.dec'
+    }
+    {
+        'match': '(\\b0x[0-9a-fA-F]+|\\$[0-9a-fA-F]+)\\b'
+        'name': 'constant.numeric.hex'
+    }
+    {
+        'match': '\\b(fn|end|if|ret|loop)\\b'
+        'name': 'keyword.calc'
+    }
+    {
+        'match': '\\binc\\b'
+        'name': 'keyword.control.include.calc'
+    }
+    {
+        'match': '\\b(print|sin|cos|tan|asin|acos|atan|pow|ceil|floor|rnd|sum|pct|sqrt|round|root|ln|log|log10|rad|deg)\\b'
+        'name': 'storage.stdlibcall.calc'
+    }
+    {
+        'begin': '"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.calc'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.calc'
+        'name': 'string.quoted.double.calc'
+      }
+]
+'scopeName': 'source.calc'

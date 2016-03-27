@@ -1,0 +1,27 @@
+{
+  "name": "language-calclang",
+  "version": "0.0.1-dev",
+  "description": "Atom support for CalcLang.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calclang/atom-calclang.git"
+  },
+  "keywords": [
+    "calclang",
+    "atom-calclang"
+  ],
+  "author": "Tobe O <thosakwe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calclang/atom-calclang/issues"
+  },
+  "engine": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/calclang/atom-calclang#readme"
+}
