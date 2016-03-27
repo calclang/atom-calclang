@@ -1,6 +1,6 @@
 {
   "name": "language-calclang",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Atom support for CalcLang.",
   "main": "lib/index.js",
   "scripts": {
