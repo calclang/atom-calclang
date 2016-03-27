@@ -1,0 +1,10 @@
+'.source.calc':
+  'editor':
+    'commentStart': '// '
+    'increaseIndentPattern': '(?x)
+        \\{ [^}"\']* $
+      | \\[ [^\\]"\']* $
+      | \\( [^)"\']* $
+      '
+    'decreaseIndentPattern': '(?x)
+        ^ \\s* (\\s* /[*] .* [*]/ \\s*)* [}\\])]
